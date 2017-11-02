@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Módulo 8</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" rel="stylesheet">
+</head>
+<body>
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#success">
+	Success
+<span class="fa fa-check-circle-o fa-2x"></span>
+</button>
+<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#warning">
+	Warning
+<span class="fa fa-exclamation fa-2x"></span>
+</button>
+<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#danger">
+	Danger
+<span class="fa fa-times-circle fa-2x"></span>
+</button>
+
+<!-- Modal -->
+<div class="modal fade modal-tema success" id="success" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="modal-title" id="exampleModalLabel"><span class="fa fa-check-circle-o fa-5x"></span></span>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><span class="fa fa-times"></span></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h1>
+        Great
+        </h1>
+        <p>
+        You data has been successfully saved!
+        </p>
+        <button class="btn btn-success">
+        back to my work
+        </button>
+        <button class="btn btn-success">
+        back to store hours
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade modal-tema warning" id="warning" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="modal-title" id="exampleModalLabel"><span class="fa fa-exclamation fa-5x"></span></span>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><span class="fa fa-times"></span></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h1>
+        Warning
+        </h1>
+        <p>
+        You is confirm?
+        </p>
+        <button class="btn btn-warning">
+        back to my work
+        </button>
+        <button class="btn btn-warning">
+        back to store hours
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade modal-tema danger" id="danger" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="modal-title" id="exampleModalLabel"><span class="fa fa-times-circle fa-5x"></span></span>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><span class="fa fa-times"></span></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h1>
+        Error
+        </h1>
+        <p>
+        You data has error, not saved!
+        </p>
+        <button class="btn btn-danger">
+        back to my work
+        </button>
+        <button class="btn btn-danger">
+        back to store hours
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

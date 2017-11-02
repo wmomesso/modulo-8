@@ -1,0 +1,93 @@
+/*modify*/
+body{
+  margin: 0 auto;
+  padding: 15px 25px;
+}
+.modal-tema .modal-header{
+  padding:55px;
+  text-align: center;
+}
+
+.modal-header .modal-title{
+  margin-left: 45%;
+}
+
+.modal-tema .modal-body{
+  text-align: center;
+}
+.modal-tema .btn{
+  background-color: transparent;
+  padding: 13px;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+.modal-tema .btn-success:hover{
+  background-color: #1abc9c;
+  color: white;
+}
+
+.modal-tema .btn-warning:hover{
+  background-color: #f1c40f;
+  color: white;
+}
+
+.modal-tema .btn-danger:hover{
+  background-color: #e74c3c;
+  color: white;
+}
+
+
+/*style*/
+.modal-tema.success .modal-header{
+  background-color: #27ae60;
+  color: white;
+}
+
+.modal-tema .btn-success{
+  background-color: transparent;
+  color: #2ecc71;
+  }
+  
+  .modal-tema .btn-warning{
+  background-color: transparent;
+  color: #f1c40f;
+  }
+  
+  .modal-tema .btn-danger{
+  background-color: transparent;
+  color: #e74c3c;
+  }
+.success .modal-body{
+  background-color: white;
+  color: #2ecc71;
+}
+
+.warning .modal-body{
+  background-color: white;
+  color: #f1c40f;
+}
+
+.danger .modal-body{
+  background-color: white;
+  color: #e74c3c;
+}
+.modal-tema.warning .modal-header{
+  background-color: #f1c40f;
+  color: white;
+}
+
+.modal-tema.danger .modal-header{
+  background-color: #c0392b;
+  color: white;
+}
+
+.close{
+  color: white;
+}
+.close:hover{
+  color: white;
+}
+p{
+  color: #ccc;
+  font-size: 1.3em;
+}
